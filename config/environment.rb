@@ -10,9 +10,9 @@ hello.save
 ninety_nine_problems = Song.new(name: "99 Problems", album: "The Black Album")
 ninety_nine_problems.save
 song=Song.create(name: "Hello", album: "25")
-p song.name
-song.album
+# p song.name
+# song.album
 
-
+pp Song.all_students
 
 p DB[:conn].execute("PRAGMA table_info(songs)")
